@@ -6,17 +6,17 @@ This project analyzes the HR Employee Attrition and Performance dataset to ident
 ## BUSINESS QUESTIONS  
 
 1. **Workforce Overview and Attrition Metrics**  
-   - What is the overall employee attrition rate?  
-   - How do attrition rates and distribution vary by department, role, gender, and age group? 
+   - Overall employee attrition rate  
+   - Attrition rates and distribution by department, role, gender, and age group  
 2. **Employee Performance**  
-   - What is the distribution of employee performance ratings?  
-   - How do attrition rates and distribution vary across performance levels?  
+   - Distribution of employee performance ratings  
+   - Attrition rates and distribution across performance levels  
 3. **Satisfaction and Compensation** 
-   - How do job satisfaction levels relate to attrition rates and distribution?  
-   - Are there differences in attrition rates across salary categories?  
+   - Relationship between job satisfaction levels and attrition  
+   - Attrition rates across salary categories  
 4. **Education and Career Development** 
-   - What is the distribution of education levels?  
-   - How do attrition rates vary by education level and career stage?
+   - Distribution of employee education levels  
+   - Attrition patterns by education level and career stage  
 
 ---
 
@@ -39,7 +39,7 @@ This project analyzes the HR Employee Attrition and Performance dataset to ident
 
 ## DATA MODEL OVERVIEW 
 
-The dataset uses a relational model with fact tables (performance_rating) and dimension tables (employee, satisfied_level, rating_level, education_level) connected via **primary and foreign keys** to support accurate joins and analysis.
+The dataset uses a relational model with fact tables (`performance_rating`) and dimension tables (`employee`, `satisfied_level`, `rating_level`, `education_level`) connected via **primary and foreign keys** to support accurate joins and analysis.
 
 ---
 
@@ -96,6 +96,7 @@ The dataset uses a relational model with fact tables (performance_rating) and di
 
 ## TOOLS USED  
 
-**Python (Pandas):** Handling missing values and duplicates, correcting data types and column names, and ensuring referential integrity for foreign keys.  
-**MySQL:** Data analysis and querying using the relational structure to extract accurate insights.  
-**Tableau:** Data visualization to create clear, actionable dashboards and charts.  
+- **MySQL:** Used for relational schema design and analytical querying with joins, aggregations, and filters to support business insights.  
+**Python (Pandas) and Jupyter Notebook:** Used for data cleaning and preparation, including handling missing values and duplicates, standardizing data types and column names, and validating foreign key relationships.  
+- **Markdown (.md)**: Used to document the analysis process, key insights, and business recommendations in a clear, structured format.  
+- **Tableau:** Used to visualize trends and performance metrics through clear, actionable dashboards and charts.   
