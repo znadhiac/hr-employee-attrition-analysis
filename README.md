@@ -99,6 +99,6 @@ The dataset uses a relational model with fact tables (`performance_rating`) and 
 ## TOOLS USED  
 
 - **MySQL:** Used for relational schema design and analytical querying with joins, aggregations, and filters to support business insights.  
-**Python (Pandas) and Jupyter Notebook:** Used for data cleaning and preparation, including handling missing values and duplicates, standardizing data types and column names, and validating foreign key relationships.  
+- **Python (Pandas) and Jupyter Notebook:** Used for data cleaning and preparation, including handling missing values and duplicates, standardizing data types and column names, and validating foreign key relationships.  
 - **Markdown (.md)**: Used to document the analysis process, key insights, and business recommendations in a clear, structured format.  
 - **Tableau:** Used to visualize trends and performance metrics through clear, actionable dashboards and charts.   
